@@ -1,6 +1,6 @@
-require "rails_helper"
+require 'rails_helper'
 
-RSpec.describe "Users API", type: :request do
+RSpec.describe 'Users API', type: :request do
   let!(:user) {create(:user)}
   let(:user_id) {user.id}
 

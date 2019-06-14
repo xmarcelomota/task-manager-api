@@ -1,4 +1,4 @@
-require "api_version_constraint"
+require 'api_version_constraint'
 
 Rails.application.routes.draw do
   devise_for :users
